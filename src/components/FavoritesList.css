@@ -1,0 +1,190 @@
+.sidebar {
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+  min-height: 250px;
+  z-index: 90;
+  background: var(--white);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: 1px solid #eee;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sidebar:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.favorites-box {
+  width: 100%;
+}
+
+.fav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.favorites-box h3 {
+  margin: 0;
+  color: var(--text);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.fav-count-badge {
+  background-color: #5b72ea;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: bold;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.favorites-box hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 20px 0;
+  color: #999;
+}
+.empty-state .main-text { 
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #777;
+}
+.empty-state .sub-text { 
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* List Items */
+.fav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fav-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: grab;
+  transition: background 0.2s;
+}
+
+/* Group Image + Text together so they are clickable */
+.fav-link-wrapper {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  flex-grow: 1;
+  gap: 12px;
+}
+
+.fav-link-wrapper:hover .fav-loc {
+  color: var(--accent);
+}
+
+.fav-item-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+  background-color: #eee;
+}
+
+.fav-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.fav-loc {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--primary);
+  line-height: 1.2;
+}
+
+.fav-price {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 2px;
+}
+
+/* Remove Button */
+.remove-btn { 
+  background: none; 
+  border: none; 
+  color: #ccc; 
+  cursor: pointer; 
+  padding: 5px;
+  margin-left: 5px;
+  font-size: 1rem;
+  transition: color 0.2s;
+  display: flex; 
+}
+
+.remove-btn:hover {
+  color: #e74c3c;
+}
+
+/* Clear Button */
+.clear-btn { 
+  width: 100%;
+  height: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa; 
+  color: var(--primary);
+  border: 1px solid #ccc; 
+  border-radius: 10px;
+  margin-top: 15px; 
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.clear-btn:hover { 
+  background: #e9ecef;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 900px) {
+  .sidebar {
+    position: static;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+
+  .fav-header {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 5;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+  }
+}

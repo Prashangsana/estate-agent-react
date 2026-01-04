@@ -1,0 +1,109 @@
+{
+  "properties": [
+    {
+      "id": "prop1",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 750000,
+      "tenure": "Freehold",
+      "location": "Petts Wood Road, Petts Wood, Orpington BR5",
+      "shortDescription": "Charming three-bedroom family home steps from Petts Wood station.",
+      "description": "Discover the perfect blend of charm and contemporary living in this attractive three-bedroom semi-detached home, just 0.5 miles from Petts Wood station. Spanning 1,250 sq ft, the property features a spacious entrance hall leading to an expansive open-plan living area. The heart of the home is a modern kitchen with quartz countertops and premium appliances. Upstairs offers three generous bedrooms and a luxurious family bathroom with a rainfall shower. The master suite includes bespoke wardrobes overlooking a landscaped rear garden with a private patio. With a dedicated home office, guest WC, and off-street parking for two cars, this home meets every modern need. Ideally located near top-rated schools and woodland walks, it is a rare find in a sought-after neighborhood.",
+      "added": { "month": "October", "day": 12, "year": 2025 },
+      "images": [
+        "prop1/prop1-1.jpg", "prop1/prop1-2.jpg", "prop1/prop1-3.jpg", 
+        "prop1/prop1-4.jpg", "prop1/prop1-5.jpg", "prop1/prop1-6.jpg", "prop1/prop1-7.jpg"
+      ]
+    },
+    {
+      "id": "prop2",
+      "type": "Flat",
+      "bedrooms": 2,
+      "price": 399995,
+      "tenure": "Freehold",
+      "location": "Crofton Road Orpington BR6",
+      "shortDescription": "Modern two-bedroom garden flat with contemporary open-plan living.",
+      "description": "Presented in immaculate order, this stunning garden flat offers exceptional living across 950 sq ft. The property features two spacious double bedrooms, including a master with a sleek en-suite, alongside a pristine family bathroom. The highlight is the bright, open-plan living area where a state-of-the-art kitchen flows seamlessly into the lounge. Bi-fold doors open onto a private, south-facing patio extending into lush communal gardens, creating a perfect indoor-outdoor lifestyle. Additional benefits include underfloor heating, a utility cupboard, and secure video entry. Located on desirable Crofton Road, this flat combines peace with convenience, sitting just a short stroll from Orpington’s bustling high street and excellent transport links into Central London. Ideal for professionals seeking quality and style.",
+      "added": { "month": "September", "day": 14, "year": 2025 },
+      "images": [
+        "prop2/prop2-1.jpg", "prop2/prop2-2.jpg", "prop2/prop2-3.jpg", 
+        "prop2/prop2-4.jpg", "prop2/prop2-5.jpg", "prop2/prop2-6.jpg", "prop2/prop2-7.jpg"
+      ]
+    },
+    {
+      "id": "prop3",
+      "type": "House",
+      "bedrooms": 4,
+      "price": 550000,
+      "tenure": "Freehold",
+      "location": "High Street, Bromley BR1",
+      "shortDescription": "Spacious four-bedroom detached home with garage and large garden.",
+      "description": "A substantial four-bedroom detached residence offering ample space for a growing family, set on a generous plot of 1,800 sq ft. This impressive property boasts a large double garage and a sweeping driveway. Inside features two reception rooms, including a formal lounge with a fireplace and a separate dining room. The spacious kitchen includes a breakfast bar, utility room, and access to a vast rear garden laid to lawn. Upstairs are four double bedrooms and two bathrooms, including a master en-suite. While well-maintained, it offers fantastic potential for modernization. Located on Bromley High Street, it provides immediate access to top-rated schools, The Glades shopping center, and transport links, perfectly balancing suburban tranquility with urban convenience.",
+      "added": { "month": "January", "day": 10, "year": 2025 },
+      "images": [
+        "prop3/prop3-1.jpg", "prop3/prop3-2.jpg", "prop3/prop3-3.jpg", 
+        "prop3/prop3-4.jpg", "prop3/prop3-5.jpg", "prop3/prop3-6.jpg", "prop3/prop3-7.jpg"
+      ]
+    },
+    {
+      "id": "prop4",
+      "type": "Flat",
+      "bedrooms": 1,
+      "price": 250000,
+      "tenure": "Leasehold",
+      "location": "Baker Street, London NW1",
+      "shortDescription": "Stylish one-bedroom city apartment near Baker Street tube station.",
+      "description": "Experience cosmopolitan living in this stylish one-bedroom apartment, perfectly positioned on historic Baker Street. Spanning a well-designed 600 sq ft, this residence is tailored for the modern professional. The interior features high ceilings, engineered oak flooring, and sash windows flooding the space with light. The open-plan living area includes a chic kitchen with smart home integration for lighting and heating. The double bedroom offers built-in storage, served by a luxury bathroom with marble finishes. Residents enjoy doorstep access to world-class dining, Regent's Park, and unbeatable transport connections via Baker Street tube. With a long lease and low service charges, this is an unmissable opportunity to own a pied-à-terre in one of London's most famous postcodes.",
+      "added": { "month": "November", "day": 5, "year": 2025 },
+      "images": [
+        "prop4/prop4-1.jpg", "prop4/prop4-2.jpg", "prop4/prop4-3.jpg", 
+        "prop4/prop4-4.jpg", "prop4/prop4-5.jpg", "prop4/prop4-6.jpg", "prop4/prop4-7.jpg"
+      ]
+    },
+    {
+      "id": "prop5",
+      "type": "House",
+      "bedrooms": 5,
+      "price": 1200000,
+      "tenure": "Freehold",
+      "location": "Camden Road, London NW1",
+      "shortDescription": "Luxury five-bedroom villa with pool and private double garage.",
+      "description": "An exceptional five-bedroom luxury villa on Camden Road, renovated to create a unique urban sanctuary of over 3,500 sq ft. This masterpiece features a heated indoor pool, private gym, and cinema room. The ground floor offers a grand hall leading to three reception rooms blending period elegance with modern luxury. A bespoke chef's kitchen boasts a wine cellar and bi-fold doors opening to a secluded courtyard. The first-floor master suite includes dual dressing rooms and a spa-like en-suite. Four further double bedrooms and three additional bathrooms ensure ample space. With a private double garage, advanced security, and entertainment wiring throughout, this villa offers the ultimate in privacy and luxury for the discerning buyer.",
+      "added": { "month": "December", "day": 20, "year": 2025 },
+      "images": [
+        "prop5/prop5-1.jpg", "prop5/prop5-2.jpg", "prop5/prop5-3.jpg", 
+        "prop5/prop5-4.jpg", "prop5/prop5-5.jpg", "prop5/prop5-6.jpg", "prop5/prop5-7.jpg"
+      ]
+    },
+    {
+      "id": "prop6",
+      "type": "Flat",
+      "bedrooms": 3,
+      "price": 450000,
+      "tenure": "Share of Freehold",
+      "location": "Station Road, Orpington BR5",
+      "shortDescription": "Renovated three-bedroom flat with balcony and shared garden access.",
+      "description": "This beautifully renovated three-bedroom flat offers comfort and convenience on Station Road, spanning a generous 1,100 sq ft. Thoughtfully updated to maximize light, it features a large living room with sliding doors opening onto a private, south-facing balcony with scenic views. There are two modern bathrooms, including a master en-suite, both finished with contemporary fixtures. The separate kitchen diner is fully equipped with high-gloss units. Residents benefit from exclusive access to a well-maintained shared garden. Located moments from Orpington station, this home is a commuter's dream with fast trains to London Bridge. Local shops, leisure centers, and parks are within easy walking distance, making this a fantastic opportunity for families or investors.",
+      "added": { "month": "October", "day": 1, "year": 2025 },
+      "images": [
+        "prop6/prop6-1.jpg", "prop6/prop6-2.jpg", "prop6/prop6-3.jpg", 
+        "prop6/prop6-4.jpg", "prop6/prop6-5.jpg", "prop6/prop6-6.jpg", "prop6/prop6-7.jpg"
+      ]
+    },
+    {
+      "id": "prop7",
+      "type": "House",
+      "bedrooms": 2,
+      "price": 325000,
+      "tenure": "Freehold",
+      "location": "Manor Lane, Bromley BR1",
+      "shortDescription": "Cozy two-bedroom character cottage near the local park.",
+      "description": "A delightful two-bedroom character cottage on desirable Manor Lane, offering 850 sq ft of cozy living space. This charming property retains original features including exposed timber beams, a brick-built fireplace with a log burner, and hardwood flooring. The ground floor comprises an inviting lounge, separate dining area, and a galley-style country kitchen with solid wood countertops leading to a quaint courtyard garden. Upstairs find two well-proportioned double bedrooms and a tastefully updated family bathroom with a roll-top bath. With proximity to local parks, excellent schools, and Bromley's vibrant town center, this cottage represents a fantastic opportunity for buyers looking for a home with personality and history in a peaceful yet connected location.",
+      "added": { "month": "August", "day": 15, "year": 2025 },
+      "images": [
+        "prop7/prop7-1.jpg", "prop7/prop7-2.jpg", "prop7/prop7-3.jpg", 
+        "prop7/prop7-4.jpg", "prop7/prop7-5.jpg", "prop7/prop7-6.jpg", "prop7/prop7-7.jpg"
+      ]
+    }
+  ]
+}
