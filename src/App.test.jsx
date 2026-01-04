@@ -4,7 +4,7 @@ import { MemoryRouter } from 'react-router-dom';
 import SearchForm from './components/SearchForm';
 import PropertyCard from './components/PropertyCard';
 
-// --- MOCK DATA ---
+// Mock property data
 const mockProperty = {
   id: "prop1",
   type: "House",
@@ -17,8 +17,8 @@ const mockProperty = {
 
 describe('Real Estate App Tests', () => {
 
-  // --- TEST 1: COMPONENT RENDERING ---
-  // Ensures the SearchForm loads with the correct inputs visible to the user.
+  // TEST 1 COMPONENT RENDERING
+  // Ensures the SearchForm loads with the correct inputs visible to the user
   test('1. SearchForm renders key filter inputs correctly', () => {
     render(<SearchForm onSearch={() => {}} />);
     
@@ -32,8 +32,8 @@ describe('Real Estate App Tests', () => {
     expect(screen.getByText(/Clear Filters/i)).toBeInTheDocument();
   });
 
-  // --- TEST 2: INTERACTION (FILTERING) ---
-  // Ensures that typing in a box actually triggers the search function.
+  // TEST 2 INTERACTION (FILTERING)
+  // Ensures that typing in a box actually triggers the search function
   test('2. Typing in Postcode triggers the onSearch function', () => {
     const mockOnSearch = jest.fn(); // Create a fake function to track calls
     render(<SearchForm onSearch={mockOnSearch} />);
@@ -47,8 +47,8 @@ describe('Real Estate App Tests', () => {
     expect(mockOnSearch).toHaveBeenCalled();
   });
 
-  // --- TEST 3: INTERACTION (RESET) ---
-  // Ensures the "Clear Filters" button works.
+  // TEST 3 INTERACTION (RESET)
+  // Ensures the "Clear Filters" button works
   test('3. Clicking Clear Filters resets search criteria', () => {
     const mockOnSearch = jest.fn();
     render(<SearchForm onSearch={mockOnSearch} />);
@@ -60,10 +60,10 @@ describe('Real Estate App Tests', () => {
     expect(mockOnSearch).toHaveBeenCalled();
   });
 
-  // --- TEST 4: DATA DISPLAY ---
-  // Ensures the Card component actually shows the data we pass to it.
+  // TEST 4 DATA DISPLAY
+  // Ensures the Card component actually shows the data we pass to it
   test('4. PropertyCard displays correct price and location', () => {
-    // We wrap in MemoryRouter because PropertyCard uses <Link>
+    // Wrap in MemoryRouter because PropertyCard uses <Link>
     render(
       <MemoryRouter>
         <PropertyCard property={mockProperty} />
@@ -75,8 +75,8 @@ describe('Real Estate App Tests', () => {
     expect(screen.getByText('3 Bed')).toBeInTheDocument();
   });
 
-  // --- TEST 5: LOGIC (FAVORITES) ---
-  // Ensures the heart button works and sends the correct data back.
+  // TEST 5 LOGIC (FAVORITES)
+  // Ensures the heart button works and sends the correct data back
   test('5. Clicking Favorite button calls toggle function with property data', () => {
     const mockToggle = jest.fn();
     render(
@@ -89,7 +89,7 @@ describe('Real Estate App Tests', () => {
       </MemoryRouter>
     );
     
-    // Find button by aria-label (good for accessibility testing too!)
+    // Find button by aria-label
     const favBtn = screen.getByLabelText(/Add to favorites/i);
     fireEvent.click(favBtn);
     
